@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T15:40:42.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="rdkwVLRP1NFOziCNme2u" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T16:26:11.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="aSQ78uBaRndsK_BL6OBc" version="13.9.9" type="github">
   <diagram id="TMXSOWhYbLECOYfklIyv" name="Page-1">
-    <mxGraphModel dx="3988" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3901" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -585,8 +585,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BWCG1YFNvTNrp1tG9PvR-2" value="profile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-2" value="BloodPressure - &amp;nbsp;Observation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-870" y="250" width="124.5" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="https://simplifier.net/forschungsnetzcovid-19/bloodpressure" link="https://simplifier.net/forschungsnetzcovid-19/bloodpressure" id="BWCG1YFNvTNrp1tG9PvR-3">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" vertex="1" parent="1">
+            <mxGeometry x="-1140" y="255" width="220" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-5" value="component: Backbone-Element" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-6" value="systolicBP:&lt;br&gt;Backbone-&lt;br&gt;Element" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-8" value="value:&lt;br&gt;decimal" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-10" value="code:&amp;nbsp;&lt;br&gt;code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BWCG1YFNvTNrp1tG9PvR-6" target="BWCG1YFNvTNrp1tG9PvR-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1010" y="630" as="targetPoint" />
+            <mxPoint x="-1100.0000000000002" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1130" y="660" />
+              <mxPoint x="-1020" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCG1YFNvTNrp1tG9PvR-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BWCG1YFNvTNrp1tG9PvR-6" target="BWCG1YFNvTNrp1tG9PvR-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1170" y="690.0000000000002" as="targetPoint" />
+            <mxPoint x="-1240" y="559.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1130" y="660" />
+              <mxPoint x="-1230" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
