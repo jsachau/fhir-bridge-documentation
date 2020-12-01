@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T15:00:34.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="VsiUFKZMjTdEx9Yruyme" version="13.10.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-01T15:28:30.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="Wa9TbFcgq5AdeFAK-ZuO" version="13.10.5" type="github">
   <diagram id="TMXSOWhYbLECOYfklIyv" name="Page-1">
     <mxGraphModel dx="3496" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -215,9 +215,6 @@
         <mxCell id="WNOsDTk-nys0i8xbJVlw-70" value="case identifier: String" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="385" y="1360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-96" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-86" target="WNOsDTk-nys0i8xbJVlw-90" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-97" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-86" target="WNOsDTk-nys0i8xbJVlw-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -231,9 +228,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-101" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-86" target="WNOsDTk-nys0i8xbJVlw-95" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-109" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WNOsDTk-nys0i8xbJVlw-86" target="WNOsDTk-nys0i8xbJVlw-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-86" value="&lt;div class=&quot;cm-node-details-value cm-node-details-templ-id&quot;&gt;Laborprofile - DiagnosticReport&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -278,17 +272,8 @@
         <mxCell id="WNOsDTk-nys0i8xbJVlw-89" value="https://simplifier.net/medizininformatikinitiative-modullabor/diagnosticreportlab" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="-1350" y="1470" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-144" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=1;strokeColor=#FF0000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-90" target="WNOsDTk-nys0i8xbJVlw-70" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-90" value="report identifier: code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1260" y="1110" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-91" value="category: code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="WNOsDTk-nys0i8xbJVlw-91" value="conclusion: string" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1060" y="1110" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-137" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-92" target="WNOsDTk-nys0i8xbJVlw-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-92" value="code: code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-960" y="1110" width="80" height="80" as="geometry" />
@@ -303,9 +288,6 @@
               <mxPoint x="140" y="1760" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=1;strokeColor=#000000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-94" target="WNOsDTk-nys0i8xbJVlw-155" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-94" value="effective: dateTime" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-760" y="1110" width="80" height="80" as="geometry" />
@@ -352,14 +334,6 @@
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-107" value="status: code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1060" y="1640" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-128" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" parent="1" source="WNOsDTk-nys0i8xbJVlw-108" target="WNOsDTk-nys0i8xbJVlw-66" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-411.1764705882353" y="1650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-108" value="status: code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1160" y="1110" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-110" value="category: code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-960" y="1640" width="80" height="80" as="geometry" />
@@ -430,27 +404,6 @@
         <mxCell id="WNOsDTk-nys0i8xbJVlw-134" value="event time: DateTime" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="200" y="1360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-146" value="text in the template, code in the profile, can just map the display name, this is an issue for the reverse transformation." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="1230" width="200" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-147" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;endArrow=none;endFill=0;dashPattern=1 1;rounded=1;curved=1;entryX=0;entryY=0;entryDx=200;entryDy=41.5;entryPerimeter=0;" parent="1" target="WNOsDTk-nys0i8xbJVlw-146" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1350" y="1260" as="targetPoint" />
-            <mxPoint x="-930" y="1220" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-148" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;endArrow=none;endFill=0;dashPattern=1 1;rounded=1;curved=1;entryX=0;entryY=0;entryDx=200;entryDy=41.5;entryPerimeter=0;" parent="1" target="WNOsDTk-nys0i8xbJVlw-146" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1310" y="1281.5" as="targetPoint" />
-            <mxPoint x="-1120" y="1210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WNOsDTk-nys0i8xbJVlw-149" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;endArrow=none;endFill=0;dashPattern=1 1;rounded=1;curved=1;entryX=0;entryY=0;entryDx=200;entryDy=41.5;entryPerimeter=0;" parent="1" target="WNOsDTk-nys0i8xbJVlw-146" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1310" y="1281.5" as="targetPoint" />
-            <mxPoint x="-1165" y="1320" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-152" value="text in the template, code in the profile, can just map the display name, this is an issue for the reverse transformation." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="-540" y="1640" width="200" height="70" as="geometry" />
         </mxCell>
@@ -488,7 +441,7 @@
           <mxGeometry x="-50" y="1800" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-46" value="&lt;div class=&quot;cm-node-details-value cm-node-details-arch-id&quot;&gt;openEHR-EHR-CLUSTER.specimen.v1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="1510" width="160" height="60" as="geometry" />
+          <mxGeometry x="-435.75" y="1510" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WNOsDTk-nys0i8xbJVlw-47" value="&lt;div class=&quot;cm-node-details-value cm-node-details-arch-id&quot;&gt;openEHR-EHR-CLUSTER.laboratory_test_analyte.v1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-230" y="1510" width="240" height="60" as="geometry" />
@@ -1067,6 +1020,9 @@
         </mxCell>
         <mxCell id="NlGKAaJlpffj4b0ZTf12-52" value="&lt;div&gt;having the status here doesnt seem right https://ckm.highmed.org/ckm/templates/1246.169.1095/discussion&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RE: this is the data record status: final, provisional, changed, etc.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="460" y="5270" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkb7Fa5lrBp5HmXukQe-2" value="schluss-folgerung: String" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1360" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
