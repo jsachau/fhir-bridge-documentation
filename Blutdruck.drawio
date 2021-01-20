@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T16:13:29.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="HcsRM1ezXlVD6J2jDlrK" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T16:26:44.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="ej2XYdOM-6gu_M_mPcF1" version="14.1.1" type="github">
   <diagram id="TMXSOWhYbLECOYfklIyv" name="Page-1">
     <mxGraphModel dx="3549" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
         <mxCell id="h2Y0RTakNAgf0IYQmvkw-17" value="&lt;div class=&quot;cm-node-details-value cm-node-details-arch-id&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;openEHR-EHR-OBSERVATION.blood_pressure.v2&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-260" y="520" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h2Y0RTakNAgf0IYQmvkw-18" value="status: String" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="h2Y0RTakNAgf0IYQmvkw-18" value="status: Enum" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="510" y="520" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h2Y0RTakNAgf0IYQmvkw-19" value="kategorie:&lt;br&gt;String" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -325,7 +325,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h2Y0RTakNAgf0IYQmvkw-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="1" source="BWCG1YFNvTNrp1tG9PvR-8" target="h2Y0RTakNAgf0IYQmvkw-22" edge="1">
+        <mxCell id="h2Y0RTakNAgf0IYQmvkw-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BWCG1YFNvTNrp1tG9PvR-8" target="h2Y0RTakNAgf0IYQmvkw-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="820" as="targetPoint" />
             <mxPoint x="-1110" y="1200" as="sourcePoint" />
@@ -337,7 +337,7 @@
             <mxPoint x="-1220" y="810" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h2Y0RTakNAgf0IYQmvkw-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="1" source="h2Y0RTakNAgf0IYQmvkw-3" target="h2Y0RTakNAgf0IYQmvkw-20" edge="1">
+        <mxCell id="h2Y0RTakNAgf0IYQmvkw-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h2Y0RTakNAgf0IYQmvkw-3" target="h2Y0RTakNAgf0IYQmvkw-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" y="730" as="targetPoint" />
             <mxPoint x="-1220" y="810" as="sourcePoint" />
@@ -410,7 +410,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dzw76KjQPkLIqhUCmITL-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dzw76KjQPkLIqhUCmITL-4" target="h2Y0RTakNAgf0IYQmvkw-19">
+        <mxCell id="dzw76KjQPkLIqhUCmITL-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="dzw76KjQPkLIqhUCmITL-4" target="h2Y0RTakNAgf0IYQmvkw-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="820" as="targetPoint" />
             <mxPoint x="-820" y="580" as="sourcePoint" />
@@ -468,6 +468,12 @@
               <mxPoint x="-1120" y="480" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dzw76KjQPkLIqhUCmITL-20" value="The codes for both backbone elements are transformed to Strings which might cause issues when transforming back into FHIR" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="-677" y="725" width="252.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dzw76KjQPkLIqhUCmITL-21" value="The category codable concept is transomed into a string which is a non-bidirectional transformation.&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="930" width="252.25" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
